@@ -21,7 +21,7 @@ from transformers import LlamaForCausalLM, LlamaTokenizer
 
 
 def train(
-    base_model: str = "decapoda-research/llama-7b-hf",
+    base_model: str = "meta-llama/Llama-2-7b",
     data_path: str = "chainyo/natural-instructions-tokenized",
     output_dir: str = "./lora-natural-instructions-7b",
     batch_size: int = 4,
